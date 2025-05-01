@@ -14,7 +14,7 @@
     `;
   scriptTag.parentNode.insertBefore(container, scriptTag);
 
-  const apiUrl = "http://localhost:5000/api";
+  const apiUrl = "http://localhost:3000/api";
 
   const nameInput = container.querySelector("#name");
   const phoneInput = container.querySelector("#phone");
