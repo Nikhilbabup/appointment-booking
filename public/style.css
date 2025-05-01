@@ -1,0 +1,89 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fc;
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Title styling */
+.page-title {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Main appointment widget container */
+.appt-widget {
+  background: #ffffff;
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Header for the form */
+.appt-widget h3 {
+  font-size: 22px;
+  color: #0073e6;
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+
+/* Input, select, and button styling */
+.appt-widget input,
+.appt-widget select,
+.appt-widget button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+/* Focus effect for inputs and selects */
+.appt-widget input:focus,
+.appt-widget select:focus {
+  border-color: #0073e6;
+  outline: none;
+}
+
+/* Button styling */
+.appt-widget button {
+  background-color: #0073e6;
+  color: #ffffff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for button */
+.appt-widget button:hover {
+  background-color: #005bb5;
+}
+
+/* Status text styling */
+.appt-widget p {
+  font-size: 14px;
+  color: #333;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Disabled select option styling */
+.appt-widget select:disabled {
+  background-color: #f0f0f0;
+  color: #999;
+}
